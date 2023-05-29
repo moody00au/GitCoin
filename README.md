@@ -1,3 +1,4 @@
+
 # GitCoin
 Gamifying and tokenizing open-source development through a powerful blend of AI, blockchain technology, and a Chrome extension
 
@@ -6,21 +7,27 @@ Welcome to GitCoin, a transformative Chrome extension concept designed to revolu
 Overview
 GitCoin is more than just a project, it's a catalyst for an open-source paradigm shift. Think of it like a seed that contains the instructions to grow into a tree, and every contribution you make is like a new seed that adds to the growth and strength of GitCoin, and the open source code landscape. This isn't just about creating code, it's about changing the way we value and incentivize open-source development, and we want you to be part of this exciting journey.
 
+Gitcoin effectively gamifies and tokenises the value of people's contributions to the BitHub database and creates a marketplace ecosystem that rewards contribution and collaboration, while representing that value in a blockchain system.  
+
 System Architecture
-Here's a more detailed overview of the system architecture:
 
-Chrome Extension: GitCoin's Chrome extension serves as the primary interface for users. This extension, which integrates with GitHub, offers an enhanced user interface that displays gamified statistics and various options to generate content, annotate, verify data, and contribute to the system.
+Chrome Extension: 
+GitCoin's Chrome extension serves as the primary interface for users. This extension, which integrates with GitHub, offers an enhanced user interface that displays gamified statistics and various options to generate content, annotate, verify data, and contribute to the system.
 
-GitHub API Integration: GitCoin dynamically interacts with GitHub via its API. It fetches user data such as commits, comments, forks, stars, and other user-generated content. This information is processed by GitCoin to assign tokens based on the quality, quantity, rarity, and usefulness of each contribution.
+GitHub API Integration: 
+GitCoin dynamically interacts with GitHub via its API. It fetches user data such as commits, comments, forks, stars, and other user-generated content. This information is processed by GitCoin to assign tokens based on the quality, quantity, rarity, and usefulness of each contribution.
 
-Token System & Blockchain Integration: Each user is assigned a blockchain wallet within the GitCoin system. Tokens earned from contributions are stored in this wallet. Users can then use these tokens to assign tasks to other contributors. All token transactions and reputation changes are tracked and securely stored on the blockchain, ensuring transparency, immutability, and security.
+Token System & Blockchain Integration: 
+Each user is assigned a blockchain wallet within the GitCoin system. Tokens earned from contributions are stored in this wallet. Users can then use these tokens to assign tasks to other contributors. All token transactions and reputation changes are tracked and securely stored on the blockchain, ensuring transparency, immutability, and security.
 
-AI Guidance System: GitCoin's AI system guides users through the gamified landscape. It suggests actions that users can take to earn more tokens and improve the quality of their contributions. Over time, the AI learns from the user's behavior and preferences, providing personalized guidance and recommendations.
+AI Guidance System: 
+GitCoin's AI system guides users through the gamified landscape. It suggests actions that users can take to earn more tokens and improve the quality of their contributions. Over time, the AI learns from the user's behavior and preferences, providing personalized guidance and recommendations.
 
-Virtuous Cycle Component: GitCoin thrives on a virtuous cycle that feeds the system. The interaction between the token economy, the reputation system, and the AI creates a self-sustaining loop: higher-quality contributions earn more tokens, which improves a user's reputation, which in turn influences the AI's guidance. This feedback loop encourages continuous improvement and growth.
+Virtuous Cycle Component: 
+GitCoin thrives on a virtuous cycle that feeds the system. The interaction between the token economy, the reputation system, and the AI creates a self-sustaining loop: higher-quality contributions earn more tokens, which improves a user's reputation, which in turn influences the AI's guidance. This feedback loop encourages continuous improvement and growth.
 
 How to Contribute
-Just like a seed carries the blueprint for a tree, our system architecture serves as the foundation for GitCoin. But we need your help to bring this idea to life. Here's how you can contribute:
+Just like a seed carries the blueprint for a tree, our system architecture serves as the foundation for for the GitCoin ecosystem. But we need your help to bring this idea to life. Here's how you can contribute:
 
 Break down system specs: We invite you to delve into the system architecture and help us dissect it into smaller, manageable issues. Each issue represents a challenge that needs to be addressed for GitCoin to grow.
 
