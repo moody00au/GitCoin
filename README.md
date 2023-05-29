@@ -10,7 +10,31 @@ GitCoin is more than just a project, it's a catalyst for an open-source paradigm
 
 Gitcoin effectively gamifies and tokenises the value of people's contributions to the GitHub database and creates a marketplace ecosystem that rewards contribution and collaboration, while representing that value in a blockchain system.  
 
-System Architecture is in the file systemarchitecture.txt in the repo. 
+Udpated System Architecture is in the file systemarchitecture.txt in the repo. 
+Chrome Extension: The GitCoin Chrome extension is the primary user interface. It integrates with the user's GitHub account, offering an enhanced user interface overlay on 
+GitHub's existing UI. This overlay displays gamified statistics and various options for users to interact with the GitCoin system. The extension will actively track user 
+activity and interactions on GitHub, such as code commits, pull requests, issues created/closed, and comments made. The extension communicates this data to the GitCoin system.
+
+GitHub API Integration: GitCoin uses the GitHub API to fetch user data and project data in real-time. It captures data about commits, comments, forks, stars, pull requests, 
+issues, and other user-generated content. These data points serve as the basis for the token system. For example, creating a pull request might accrue a certain number of tokens, 
+with additional tokens awarded if the pull request is accepted and merged. Comments on issues could also earn tokens, with more awarded for comments that lead to a resolution.
+
+Token System & Blockchain Integration: Every GitHub user who interacts with GitCoin is assigned a blockchain wallet within the GitCoin system. Tokens earned from various GitHub 
+activities are stored in this wallet. The more meaningful the contribution (i.e., code commits, pull requests, issue resolution), the more tokens earned. Users can then use these 
+tokens to incentivize other contributors, by assigning tasks or bounties on specific issues or features. All token transactions and reputation changes are tracked and securely stored 
+on the blockchain, maintaining transparency and security.
+
+AI Guidance System: At the heart of GitCoin is an AI system that guides users through the gamified landscape of open-source contribution. It uses machine learning to analyze a user's 
+activity on GitHub and suggests actions to earn more tokens. For instance, if a user frequently commits to a specific repository or comments on specific types of issues, the AI might
+suggest similar repositories or issues to contribute to. Over time, the AI learns from the user's behavior and preferences, providing increasingly personalized guidance and 
+recommendations.
+
+Virtuous Cycle Component: The interaction between the token economy, the reputation system (built on the blockchain), and the AI creates a self-sustaining loop: higher-quality 
+contributions earn more tokens, which improves a user's reputation, which in turn influences the AI's guidance. This feedback loop encourages continuous improvement and growth.
+
+By using the GitCoin Chrome extension, any user or observer can get a real-time estimate of tokens accrued by a GitHub user based on their public profile and projects. 
+The extension can provide a breakdown of tokens earned per project, per type of contribution, and an overall total. This token system, in turn, stimulates a more active and productive open-source community on GitHub.
+
 
 How to Contribute
 Just like a seed carries the blueprint for a tree, our system architecture serves as the foundation for for the GitCoin ecosystem. But we need your help to bring this idea to life. Here's how you can contribute:
