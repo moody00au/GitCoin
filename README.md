@@ -8,7 +8,7 @@ Overview
 
 GitCoin is more than just a project, it's a catalyst for an open-source paradigm shift. Think of it like a seed that contains the instructions to grow into a tree, and every contribution you make is like a new seed that adds to the growth and strength of GitCoin, and the open source code landscape. This isn't just about creating code, it's about changing the way we value and incentivize open-source development, and we want you to be part of this exciting journey.
 
-Gitcoin effectively gamifies and tokenises the value of people's contributions to the BitHub database and creates a marketplace ecosystem that rewards contribution and collaboration, while representing that value in a blockchain system.  
+Gitcoin effectively gamifies and tokenises the value of people's contributions to the GitHub database and creates a marketplace ecosystem that rewards contribution and collaboration, while representing that value in a blockchain system.  
 
 System Architecture
 
